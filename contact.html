@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1c5f3f5acb.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+    <title>Travel Website | Contact us</title>
+</head>
+
+<body>
+    <nav class='navbar bg-dark'>
+        <div class='container'>
+            <h1 class='logo lg-heading text-light'>WT</h1>
+            <ul class='nav-items'>
+                <li class='nav-item'><a href="./index.html">HOME</a></li>
+                <li class='nav-item'><a href="./about.html">ABOUT</a></li>
+                <li class='nav-item'><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class='contact-form'>
+        <div class='container'>
+            <div class='form-wrapper'>
+                <div class='company-address animated backInDown'>
+                    <div class='address-group'>
+                        <i class="fas fa-map-marker-alt fa-3x text-red"></i>
+                        <h2 class='text-grey md-heading'>Location</h2>
+                        <p>#713343 Asansol Station Road, Kulti </p>
+                    </div>
+                    <div class='address-group'>
+                        <i class="fa-3x text-red fas fa-envelope"></i>
+                        <h2 class='text-grey md-heading'>E-mail</h2>
+                        <p>sonaradarsh1@gmail.com</p>
+                    </div>
+                    <div class='address-group'>
+                        <i class="fa-3x text-red fas fa-phone-square-alt"></i>
+                        <h2 class='text-grey md-heading'>Call</h2>
+                        <p>+91 7908430595</p>
+                    </div>
+                    <img src="https://source.unsplash.com/720x600/?buildings,office" alt="company image">
+                </div>
+                <form action='' class='form' data-aos="zoom-in-left" onsubmit="return false">
+                    <h1 class='lg-heading text-black'>Contact Us</h1>
+                    <p class='text-grey'>Let us know your questions, suggestions and concerns by filling out the contact
+                        form below.</p>
+                    <div class='form-group'>
+                        <label for="username">Username</label>
+                        <input type="text" name='' id='username'>
+                    </div>
+                    <div class='form-group'>
+                        <label for="email">E-mail</label>
+                        <input type="text" name='' id='email'>
+
+                    </div>
+                    <div class='form-group'>
+                        <label for="phone">Phone</label>
+                        <input type="text" name='' id='phone'>
+                    </div>
+                    <div class='form-group'>
+                        <label for="message">Message</label>
+                        <textarea name='' id='message'></textarea>
+                    </div>
+                    <button type="submit" class="form-btn" onclick="validation()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class='footer'>
+        <div class='container'>
+            <div class='social-media-links'>
+                <i class="fab fa-instagram fa-4x icon1"></i>
+                <i class="fab fa-facebook fa-4x icon2"></i>
+                <i class="fab fa-twitter fa-4x icon3"></i>
+            </div>
+            <p>World Travel &copy; 2020, All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="/javascript/contact.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 350,
+        duration: 800,
+      });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1c5f3f5acb.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+    <title>Travel Website | Welcome</title>
+</head>
+<body>
+    <header class='header'>
+        <video autoplay loop muted class="vid-background">
+            <source src="/img/video.mp4" type="video/mp4">
+            <source src="/img/videomov.mov" type="video/mov">
+            <source src="/img/videowebm.webm" type="video/webm">
+            <source src="/img/video3gp.3gp" type="video/3gp">
+            <source src="/img/videomkv.mkv" type="video/mkv">
+            Your browser does not support this awesome video title.
+        </video>
+        <nav class='navbar'>
+            <div class='container'>
+                <h1 class='logo lg-heading text-light'>WT</h1>
+                <ul class='nav-items'>
+                    <li class='nav-item'><a href="./index.html">HOME</a></li>
+                    <li class='nav-item'><a href="./about.html">ABOUT</a></li>
+                    <li class='nav-item'><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class='header-content animated flash'>
+            <h1 class='lg-heading text-light main-heading'>travel the world</h1>
+            <p class='text-light'>travel the world with us, experience the greatness, feel the nature.</p>
+            <a href="#explore-places" class='btn btn-primary  md-heading animated backInUp'>Explore Places</a>
+        </div>
+    </header>
+
+    <section class='showcase showcase1' id='explore-places'>
+        <div class='container'>
+            <div class='row row1' data-aos="flip-left">
+                <div class='text-box' id='card-two'>
+                    <h2 class='lg-heading text-black'>Phuket, Thiland</h2><hr>
+                    <p class='text-gray small-heading'>The largest Island in all of Thailand, Phuket has everything
+                        Thailand has to offer. Serviced by the Phuket International Airport, the island sees no dearth
+                        of travellers during any time of the year. Golden beaches, numerous offshore islands, upbeat
+                        markets.</p>
+                    <a href="#card-six" class='btn btn-secondry' onclick="a()">more</a>
+                </div>
+                <div class='img-box' id='card-one'>
+                    <img src="https://source.unsplash.com/720x600/?beaches,seashore" alt="company image">
+                </div>
+            </div>
+            <div class='row row2' data-aos="flip-right">
+                <div class='img-box' id='card-three'>
+                    <img src="https://source.unsplash.com/720x600/?sea,ocean" alt="company image">
+                </div>
+                <div class='text-box' id='card-four'>
+                    <h2 class='lg-heading text-black'>New Zealand</h2><hr>
+                    <p class='text-gray small-heading'>"The Land Where Adventures Wait" New Zealand lies in the Pacific
+                        Ocean, to the southwest. New Zealand promises beautiful landscapes and serene, equally beautiful
+                        coastlines that you can drive along, listening to the sound of the surf.</p>
+                    <a href="#card-seven" class='btn btn-secondry' onclick="a()">more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='showcase showcase2'>
+        <div class='container'>
+            <div class='row row1' data-aos="flip-left">
+
+                <div class='text-box' id='card-six'>
+                    <h2 class='lg-heading text-black'>Maldives, A Tropical Heaven</h2><hr>
+                    <p class='text-gray small-heading'>The Maldives, a tropical heaven of immaculate beaches.Time stands
+                        still in the Maldives as you lie on the white sand beaches, hearing the crystal clear waves
+                        crash against the seashore.</p>
+                    <a href="#last" class='btn btn-secondry'>more</a>
+                </div>
+                <div class='img-box' id="card-five">
+                    <img src="https://source.unsplash.com/720x600/?resort,sea" alt="company image">
+                </div>
+            </div>
+            <div class='row row2' data-aos="flip-right">
+                <div class='img-box' id='card-seven'>
+                    <img src="https://source.unsplash.com/720x600/?amsterdam,buildings" alt="company image">
+                </div>
+                <div class='text-box' id='card-eight'>
+                    <h2 class='lg-heading text-black'>Amsterdam</h2><hr>
+                    <p class='text-gray small-heading'>Famous museums, tulips, canal-lined streets, "coffee shops" and
+                        high-end boutiques await you in Amsterdam. Here, you can spend your days gazing at Vincent van
+                        Gogh paintings, relaxing in Vondelpark and shopping in the Nine Little Streets area.</p>
+                    <a href="./about.html" class='btn btn-secondry'>more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features" id='last'>
+        <div class="container">
+            <div class='box-wrapper'>
+                <div class='box box1' id='card-nine' data-aos="zoom-in-right">
+                    <i class="fas fa-road fa-3x text-red"></i>
+                    <h2 class='md-heading'>Adventure</h2>
+                    <p class='small-heading'>A fresh coat for a fresh start. Adventure Awaits, Go Find It.. Discover a
+                        new place.A new sky, a new life.We make every trip special.</p>
+                </div>
+                <div class='box box2' id='card-ten' data-aos="flip-down">
+                    <i class="fas fa-wallet fa-3x"></i>
+                    <h2 class='md-heading'>Less Price</h2>
+                    <p class='small-heading'>Best deals for you.More at less price.Explore more pay less.Prices are low!
+                        hurry up.You want lower prices, we hear you</p>
+                </div>
+                <div class='box box3' id='card-eleven' data-aos="zoom-in-left">
+                    <i class="fas fa-user-check fa-3x text-red"></i>
+                    <h2 class='md-heading'>Experience</h2>
+                    <p class='small-heading'>A World To See.A New Pulse Of Dream.Make it meaningful and memorable.Meet
+                        the world.Make traveling fun.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class='footer'>
+        <div class='container'>
+            <div class='social-media-links'>
+                <i class="fab fa-instagram fa-4x icon1"></i>
+                <i class="fab fa-facebook fa-4x icon2"></i>
+                <i class="fab fa-twitter fa-4x icon3"></i>
+            </div>
+            <p>World Tour &copy; 2020, All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="/javascript/index.js"></script>
+
+    <!-- AOS Data------------ -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 250,
+            duration: 600,
+        });
+    </script>
+</body>
+</html>
